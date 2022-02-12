@@ -1,4 +1,4 @@
-# RPdfGenerator
+# PdfGenerator
 A sample project to generate PDF file from data using itextpdf/itext7 library
 
 # Important Notes
@@ -11,7 +11,7 @@ A sample project to generate PDF file from data using itextpdf/itext7 library
 <!-- File Provider -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.rheyansh.rpdfgenerator.fileprovider"
+            android:authorities="com.rheyansh.pdfgenerator.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
